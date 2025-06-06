@@ -1,0 +1,28 @@
+.form-section {
+    margin: 40px auto;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.form-section h2 {
+    margin-top: 0;
+}
+.form-section label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.form-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-section .error {
+    color: red;
+    font-size: 0.9em;
+    height: 18px;
+    display: block;
+}
