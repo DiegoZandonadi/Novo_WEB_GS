@@ -1,4 +1,5 @@
 
+
 // Slideshow
 let slideIndex = 0;
 const slides = document.querySelectorAll('.slide');
@@ -21,3 +22,21 @@ nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 showSlide(slideIndex);
 setInterval(nextSlide, 5000);
+
+// Alternância de temas
+const themeIcons = document.querySelectorAll('.theme-icon');
+themeIcons.forEach(icon => {
+    icon.addEventListener('click', () => {
+        document.body.className = icon.dataset.theme;
+        themeIcons.forEach(i => i.classList.remove('selected'));
+        icon.classList.add('selected');
+    });
+});
+
+
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
