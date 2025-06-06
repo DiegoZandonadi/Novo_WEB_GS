@@ -1,10 +1,11 @@
-<main>
-        <section id="slideshow" class="slideshow-section">
-            <div class="slideshow-container">
-                <img src="img/pexels-jim-de-ramos-395808-1263426.jpg" class="slide active" alt="Esporte 1">
-                <img src="img/pexels-pixabay-274422.jpg" class="slide" alt="Esporte 2">
-                <img src="img/pexels-pixabay-69773.jpg" class="slide" alt="Esporte 3">
-                <button class="prev">&#10094;</button>
-                <button class="next">&#10095;</button>
-            </div>
-        </section>
+<section id="form" class="form-section">
+            <h2>Inscreva-se para novidades esportivas</h2>
+            <form id="subscribeForm">
+                <label for="name">Nome*</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error" id="nameError"></span>
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error" id="emailError"></span>
+                <button type="submit">Enviar</button>
+            </form>
