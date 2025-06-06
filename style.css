@@ -1,0 +1,23 @@
+
+.quiz-section {
+    margin: 40px auto;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.quiz-section h2 {
+    margin-top: 0;
+}
+#quizContainer {
+    margin-bottom: 20px;
+}
+#quizResult {
+    font-weight: bold;
+    margin-top: 20px;
+}
+/* Temas de cor */
+body.theme1 { --bg-color: #f4f4f4; }
+body.theme2 { --bg-color: #e0f7fa; }
+body.theme3 { --bg-color: #fff3e0; } 
